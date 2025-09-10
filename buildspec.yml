@@ -1,0 +1,8 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      java: latest
+  build:
+    commands:
+      - mvn verify sonar:sonar -Dsonar.projectKey=kishiaws-devsecops-org01 -Dsonar.organization=kishiaws-devsecops-org01 -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=76d1a33c861e4cd3b0954243515a9767358af551 
