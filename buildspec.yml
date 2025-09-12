@@ -1,7 +1,7 @@
 version: 0.2
 env:
   secrets-manager:
-    TOKEN: firstSecretForSonar:toekforSonar
+    TOKEN: firstSecretForSonar:tokenforSonar
 phases:
   install:
     runtime-versions:
